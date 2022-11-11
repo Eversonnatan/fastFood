@@ -8,15 +8,15 @@
 
     <FrameLayout
         android:id="@+id/idContainer"
-
-        android:background="#EAB20B"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:layout_above="@id/idBottomNav"
+        android:background="#EAB20B" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/idBottomNav"
         style="@style/Widget.MaterialComponents.BottomNavigationView.Colored"
         android:layout_width="match_parent"
-        android:id="@+id/idBottomNav"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         app:menu="@menu/menu_bottom_nav"
