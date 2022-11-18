@@ -23,5 +23,25 @@
 
         />
 
+    <include
+
+        android:id="@+id/edtPorcoes"
+        layout="@layout/fragment_porcoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <include
+        android:layout_below="@+id/edtPorcoes"
+        android:id="@+id/bebidas"
+        layout="@layout/fragment_bebidas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <include
+        android:layout_below="@+id/bebidas"
+        android:id="@+id/lanches"
+        layout="@layout/fragment_lanches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>
